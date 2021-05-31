@@ -1,8 +1,3 @@
---[[
-	code generated using luamin.js, Herrtt#3868
---]]
-
-
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kiwi-i/wallys-ui-fork/master/lib.lua", true))()
 local Window = library:CreateWindow('Those Who Remain')
 local Window2 = library:CreateWindow('Otherssss')
