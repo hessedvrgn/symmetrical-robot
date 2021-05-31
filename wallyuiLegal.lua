@@ -10,12 +10,10 @@ local ammoon  = Window:Button("AutoAmmo On", function()
 		wait() --time between running
 		for i, v in pairs (game:GetService("Workspace").World.Objectives:GetChildren()) do
 			if v:IsA("Model") and v.Name == "Ammo" and game.workspace.World.Objectives.Ammo:FindFirstChild("Progress") then
-				repeat
 					while true do
 						game.workspace.LegakFork.HumanoidRootPart.CFrame = game.workspace.World.Objectives.Ammo.Progress.CFrame * CFrame.new(0, -8, 0)
 						wait()
 					end
-				until game.workspace.World.Objectives.Ammo:FindFirstChild("Progress") ~= nil
 			end
 		end
 	end
@@ -33,12 +31,10 @@ local medicon  = Window:Button("AutoMedic On", function()
 		wait() --time between running
 		for i, v in pairs (game:GetService("Workspace").World.Objectives:GetChildren()) do
 			if v:IsA("Model") and v.Name == "Medical" and game.workspace.World.Objectives.Medical:FindFirstChild("Progress") then
-				repeat
 					while true do
 						game.workspace.LegakFork.HumanoidRootPart.CFrame = game.workspace.World.Objectives.Medical.Progress.CFrame * CFrame.new(0, -8, 0)
 						wait()
 					end
-				until game.workspace.World.Objectives.Medical:FindFirstChild("Progress") ~= nil
 			end
 		end
 	end
@@ -56,12 +52,10 @@ local radioon  = Window:Button("AutoRadio On", function()
 		wait() --time between running
 		for i, v in pairs (game:GetService("Workspace").World.Objectives:GetChildren()) do
 			if v:IsA("Model") and v.Name == "Radio" and game.workspace.World.Objectives.Radio:FindFirstChild("Progress") then
-				repeat
 					while true do
 						game.workspace.LegakFork.HumanoidRootPart.CFrame = game.workspace.World.Objectives.Radio.Progress.CFrame * CFrame.new(0, -8, 0)
 						wait()
 					end
-				until game.workspace.World.Objectives.Radio:FindFirstChild("Progress") ~= nil
 			end
 		end
 	end
@@ -79,12 +73,10 @@ local escorton = Window:Button("AutoEscort On", function()
 		wait() --time between running
 		for i, v in pairs (game:GetService("Workspace").Entities.Objectives:GetDescendants()) do
 			if v:IsA("Model") and v.Name == "EscortChar" and game.workspace.Entities.Objectives.EscortChar:FindFirstChild("HumanoidRootPart") then
-				repeat
 					while true do
 						game.workspace.LegakFork.HumanoidRootPart.CFrame = game.workspace.Entities.Objectives.EscortChar.HumanoidRootPart.CFrame * CFrame.new(0, -8, 0)
 						wait()
 					end
-				until game.workspace.Entities.Objectives.EscortChar:FindFirstChild("HumanoidRootPart") == nil
 			end
 		end
 	end
