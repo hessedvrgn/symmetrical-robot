@@ -10,11 +10,11 @@ To use [Symmetrical Robot](https://github.com/hessedvrgn/symmetrical-robot) you 
 **This one is for me**
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kiwi-i/wallys-ui-fork/master/lib.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hessedvrgn/symmetrical-robot/main/wallyuiLegal.lua", true))()
 ```
 **This one is for you**
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Kiwi-i/wallys-ui-fork/master/lib.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hessedvrgn/symmetrical-robot/main/wallyuiRileko.lua", true))()
 ```
 
 
