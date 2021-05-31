@@ -29,18 +29,7 @@ for i, v in pairs (game:GetService("Workspace").World.Objectives:GetChildren()) 
 				    end
 				    until game.workspace.World.Objectives.Ammo:FindFirstChild("Progress") ~= nil
 				    if game.workspace.World.Objectives.Ammo:FindFirstChild("Progress") == nil then
-				        for i, v in pairs (game:GetService("Workspace").Entities.Objectives:GetChildren()) do
-				    if v:IsA("Model") and v.Name == "EscortChar" and game.workspace.Entities.Objectives.EscortChar:FindFirstChild("HumanoidRootPart") then repeat
-				    while true do
-					game.workspace.LegalFork.HumanoidRootPart.CFrame = game.workspace.Entities.Objectives.EscortChar.HumanoidRootPart.CFrame * CFrame.new(0, -8, 0)
-					wait()
-				    end
-				    until game.workspace.Entities.Objectives.EscortChar:FindFirstChild("HumanoidRootPart") ~= nil
-				    if game.workspace.Entities.Objectives.EscortChar:FindFirstChild("HumanoidRootPart") == nil then
 				        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(293,-1438,292)
-				end
-end
-end
 end
 end
 end
